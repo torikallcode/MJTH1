@@ -22,9 +22,9 @@ const Navbar = ({ toggleSidebar, isSidebarOpen }) => {
   }, []);
 
   return (
-    <nav className={`bg-white max-w-[100rem] mx-auto bg-opacity-50 backdrop-blur-md py-5 px-6 w-full z-50 fixed top-0 lg:border-b lg:border-gray-300 ${hasScrolled ? 'border-b border-gray-200' : ''}`}>
+    <nav className={`bg-white max-w-[100rem] mx-auto bg-opacity-50 backdrop-blur-md py-5 px-5 w-full z-50 fixed top-0 lg:border-b lg:border-gray-300 ${hasScrolled ? 'border-b border-gray-200' : ''}`}>
       <div className="container mx-auto flex justify-between items-center max-w-[84rem]">
-        <Link to={'/'} className="text-hitam text-base font-semibold tracking-widest font-baskerville">MJTH</Link>
+        <Link to={'/'} className="text-base font-semibold tracking-widest text-hitam font-baskerville">MJTH</Link>
         <div className="block lg:hidden">
           <button
             onClick={toggleSidebar}
