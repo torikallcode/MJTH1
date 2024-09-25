@@ -14,29 +14,67 @@ export const Alfatihah = () => {
             </div>
             <div className="flex flex-col w-full">
               <h1 className="mb-3">Cara Membaca Al-fatihah: </h1>
-              <ul className="flex flex-col w-full gap-y-7">
+              <ul className="flex flex-col w-full gap-y-10">
                 <li>
                   <div className="flex flex-col">
-                    <h1>Ayat 1 : </h1>
+                    <h1 className="bg-[#efeffd] w-fit mb-3 rounded-lg px-2 py-1 text-[#6366f1]">Taawuz : </h1>
                     <h2 className="text-4xl text-hitam">أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ</h2>
-                    <p>• Pada huruf lam di lafadz <span className="text-4xl">"بِاللَّهِ" </span>, Hujung lidah keatas(lelangit) kedepan , tidak ketengah tetapi tidak menyentuh gigi atas</p>
-                    <p>• Pada huruf Ya di lafadz <span className="text-4xl">"الشَّيْطَانِ"</span>, Diberikan hak huruf yak tetapi tidak ada gerakkan bibir</p>
-                    <p>• Pada huruf Tho di lafadz <span className="text-4xl">"الشَّيْطَانِ"</span>, Diberikan hak huruf Tho tetapi tidak ada gerakkan bibir</p>
+                    <p>• Pada huruf lam di lafadz, Hujung lidah keatas(lelangit) kedepan , tidak ketengah tetapi tidak menyentuh gigi atas</p>
+                    <p>• Pada huruf Ya di lafadz <span className="text-2xl">"الشَّيْطَانِ"</span>, Diberikan hak huruf yak tetapi tidak ada gerakkan bibir</p>
+                    <p>• Pada huruf Tho di lafadz <span className="text-2xl">"الشَّيْطَانِ"</span>, Diberikan hak huruf Tho tetapi tidak ada gerakkan bibir</p>
                   </div>
                 </li>
                 <li>
                   <div className="flex flex-col">
-                    <h1>Ayat 1 : </h1>
+                    <h1 className="bg-[#efeffd] w-fit mb-3 rounded-lg px-2 py-1 text-[#6366f1]">Ayat 1 : </h1>
                     <h2 className="text-4xl text-hitam">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h2>
                     <p>• Pada huruf RA, tempat keluar huruf RA tiada kaitannya dengan muncung bibir(tidak ada gerakan)</p>
                   </div>
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>
+                  <div className="flex flex-col">
+                    <h1 className="bg-[#efeffd] w-fit mb-3 rounded-lg px-2 py-1 text-[#6366f1]">Ayat 2 : </h1>
+                    <h2 className="text-4xl text-hitam">اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ</h2>
+                    <p>• Pada huruf lam , Hujung lidah keatas(lelangit) kedepan , tidak ketengah tetapi tidak menyentuh gigi atas</p>
+                    <p>• Pada huruf Ba di lafadz <span className="text-2xl">"رَبِّ الْعٰلَمِيْنَۙ"</span>, Tekan huruf BA sambil memamasukkan bunyi lam</p>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex flex-col">
+                    <h1 className="bg-[#efeffd] w-fit mb-3 rounded-lg px-2 py-1 text-[#6366f1]">Ayat 3 : </h1>
+                    <h2 className="text-4xl text-hitam">الرَّحْمٰنِ الرَّحِيْمِۙ</h2>
+                    <p>• Pada huruf RA, tempat keluar huruf RA tiada kaitannya dengan muncung bibir(tidak ada gerakan)</p>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex flex-col">
+                    <h1 className="bg-[#efeffd] w-fit mb-3 rounded-lg px-2 py-1 text-[#6366f1]">Ayat 4 : </h1>
+                    <h2 className="text-4xl text-hitam">مٰلِكِ يَوْمِ الدِّيْنِۗ</h2>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex flex-col">
+                    <h1 className="bg-[#efeffd] w-fit mb-3 rounded-lg px-2 py-1 text-[#6366f1]">Ayat 5 : </h1>
+                    <h2 className="text-4xl text-hitam">اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُۗ</h2>
+                    <p>• Kasrah "i" baru masuk ke "ya" pada lafadz <span className="text-2xl">"اِيَّا"</span> dan tekan "ya" tapi jangan terlalu lama</p>
+                    <p>• pada huruf "KA" yaitu tipis <span className="text-2xl">"كَ"</span></p>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex flex-col">
+                    <h1 className="bg-[#efeffd] w-fit mb-3 rounded-lg px-2 py-1 text-[#6366f1]">Ayat 6 : </h1>
+                    <h2 className="text-4xl text-hitam">اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ</h2>
+                    <p>• pada huruf "SOD" tidak boleh gerakkan bibir(muncung)</p>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex flex-col">
+                    <h1 className="bg-[#efeffd] w-fit mb-3 rounded-lg px-2 py-1 text-[#6366f1]">Ayat 7 : </h1>
+                    <h2 className="text-4xl text-hitam">صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ ەۙ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَ ࣖ</h2>
+                    <p>• Pada lafadz <span className="text-2xl">"عَلَيْهِمْ وَ"</span> bibir dirapatkan dulu pada bagian <span className="text-2xl">"عَلَيْهِمْ"</span> baru masuk ke <span className="text-2xl">"وَ"</span></p>
+                    <p>• pada huruf "DO" tidak boleh gerakkan bibir(muncung) yang ada pada lafadz <span className="text-2xl">"لضَّاۤ"</span></p>
+                  </div>
+                </li>
               </ul>
             </div>
             {/* <ul className='flex flex-col list-disc list-inside font-poppins gap-y-3'>
