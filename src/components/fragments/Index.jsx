@@ -1,10 +1,12 @@
 import React from 'react';
 import { NiatSholat } from './MainContent/Sholat/NiatSholat';
 import { TakbiratulIhram } from './MainContent/Sholat/TakbiratulIhram';
+import { Alfatihah } from './MainContent/Sholat/Alfatihah';
 
 const contentComponents = {
   'niatSholat': NiatSholat,
   'takbiratulIhram': TakbiratulIhram,
+  'alfatihah': Alfatihah,
 };
 const MainContent = ({ selected }) => {
   const ContentComponent = contentComponents[selected];
