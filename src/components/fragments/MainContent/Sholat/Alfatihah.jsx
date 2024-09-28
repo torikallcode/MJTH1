@@ -20,7 +20,10 @@ export const Alfatihah = () => {
               <div className="bg-[#efeffd] mb-10 w-fit max-w-xl rounded-lg px-2 py-1 text-[#6366f1]">
                 <h1>Catatan : </h1>
                 <ul className="flex flex-col pl-5 list-disc list-outside">
+                  <li>Merubah tempat keluar huruf sama degan merusak bunyi huruf, setiap huruf punya hak dan mustahak</li>
+                  <li>Hak yaitu Makhraj , sedangkan MUstahak yaitu Suara huruf yang muncul pada huruf tertentu</li>
                   <li>Hati hati pada huruf lam , mim dan apabila tasydid tidak dibaca maka bacaan Al-fatihah tidak sah (14 tasydid dalam Al-fatihah)</li>
+                  <li>4 huruf yang menggunakan gerakan bibir , yaitu <span className="text-2xl"> ب , وَ  , م , ف</span></li>
                 </ul>
               </div>
               <ul className="flex flex-col w-full gap-y-10">
